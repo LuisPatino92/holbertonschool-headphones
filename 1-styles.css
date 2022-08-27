@@ -1,0 +1,147 @@
+:root {
+    --pink: #FF6565;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+
+.main {
+    background-image: url("./images/headphones_hero_1.jpg");
+    background-size: cover;
+    bottom:0px;
+    top:0px;
+    right:0px;
+    left:0px;
+}
+
+
+body {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:1.8em
+    color: var(--white);
+}
+
+/* nav */
+.nav{
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.callToAction{
+    padding-top: 200px;
+    padding: 200px 300px;
+    text-align: center;
+}
+
+.nav-item{
+    font-size: 130%;
+    justify-content: flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container_result {
+    background-image: url("./images/headphones_hero_2.jpg");
+    background-size: cover;
+    padding: 4rem 1rem 8rem 1rem;
+    max-width: 100%;
+    width: cover;
+    background-repeat: no-repeat;
+    min-height:400px;
+    color: var(--black);
+    text-align: center;
+}
+
+.callToAction button {
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: 100%;
+    border-style: none;
+}
+
+.container_what_we_do section {
+    padding: 50px 200px ;
+}
+
+.container_what_we_do h2 {
+    font-size: 32px;
+}
+
+.container_what_we_do {
+    background-color: var(--white);
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 100%;
+    width: cover;
+    color: var(--black);
+    text-align: center;
+}
+
+.icons_what_we_do {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.title_what_we_do {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.description_what_we_do {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.icon {
+    font-size: 150px;
+    color: var(--pink);
+}
+
+
+
+.container_result h2 {
+    font-size: 32px;
+    color: var(--white);
+}
+
+.container_result p {
+    color: var(--white);
+}
+
+.pentagonsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.footerDiv{
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.pentagons {
+    height: 200px;
+    width: 200px;
+}
+
+.container_footer {
+    background-color: #071629;
+}
+
+.footerIcon {
+    font-size: 50px;
+    color: var(--white);
+}
